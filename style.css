@@ -1,8 +1,38 @@
+#titulo{
+  color:teal;
+}
+p strong, a, tfoot, th[scope="row"]{
+  color: red;
+}
+span.destacado, td strong, th.especial {
+  color: orange;
+}
+#subtitulo, a em, caption {
+  color: blue;
+}
+#adicional a, td{
+ color: green;
+}
+span.especial {
+ color: purple;
+}
+div {
+ color: olive;
+}
+#especial {
+ color: fuchsia;
+}
+table, tr, th, td {
+ border: 1px solid black;
+ border-collapse: collapse;
+ padding: 5px;
+}
+/*
 
-h1 { color: teal;}
+h1 { color: teal;} 
 strong {color: red}
 span.destacado {color: orange;} 
-h2 {color: blue}
+h2 {color: blue} 
 span.especial {color: purple;}
 a {color: red; }
 a em {color: blue;}
